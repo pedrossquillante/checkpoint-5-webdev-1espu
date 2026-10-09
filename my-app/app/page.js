@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 "use client"
 
 import Image from "next/image";
@@ -29,4 +27,3 @@ export default function Home() {
     </>
   );
 }
->>>>>>> 114bdbf2c5d4a298f3b08442ae0c396c26846d9e
