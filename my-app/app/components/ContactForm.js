@@ -7,7 +7,7 @@ const ContactForm = () => {
     const nomeRef = useRef() 
 
     useEffect(() => {
-        nomeRef.current.focus()
+        nomeRef.current.focus
     })
     
     const handleChange = (e) => {

@@ -10,3 +10,5 @@ const FilterInputs = ({ value, onChange }) => {
         />
     );
 };
+
+export default FilterInputs

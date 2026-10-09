@@ -2,7 +2,9 @@
 
 import {useEffect, useState, useRef} from "react"
 const ContactList = ({contacts}) => {
-    <li>
-        <p>teste</p>
-    </li>
+    return (
+    <p>{contacts}</p>   
+    )
 }
+
+export default ContactList

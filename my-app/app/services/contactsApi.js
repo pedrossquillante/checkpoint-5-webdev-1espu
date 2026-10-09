@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const contactsApi = axios.create({
-    baseURL: "https://https://6ac832b375a4ce3fe7228023.mockapi.io/webdev/contacts",
+    baseURL: "https://6ac832b375a4ce3fe7228023.mockapi.io/webdev/contacts",
     timeout: 10000,
     headers: {
         'Content-Type': 'application/json'
@@ -30,3 +30,5 @@ contactsApi.interceptors.response.use(
         return Promise.reject(error)
     }
 )
+
+export default contactsApi
