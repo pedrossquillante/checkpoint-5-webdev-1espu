@@ -1,0 +1,53 @@
+# CONTEXTO GIT - 1ESPU/pedrossquillante-checkpoint-5-webdev-1espu
+# Path: /Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPU/pedrossquillante-checkpoint-5-webdev-1espu
+
+## git remote -v
+origin	https://github.com/pedrossquillante/checkpoint-5-webdev-1espu (fetch)
+origin	https://github.com/pedrossquillante/checkpoint-5-webdev-1espu (push)
+
+## git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+## git log --oneline -50 (default branch)
+6634ba1 Add Vercel link to README
+f390c91 Add participants to Participantes.md
+3b3753a page
+4a67508 Merge branch 'main' of https://github.com/pedrossquillante/checkpoint-5-webdev-1espu
+394eccc globals e page mudança
+114bdbf contactsApi
+56b2af4 Merge branch 'main' of https://github.com/pedrossquillante/checkpoint-5-webdev-1espu
+c71ca31 Mudança da globals e da page
+e740933 Adição da Api e do axios
+49351a3 feat: contactForm e contactList
+979da92 Criação do Filter Input
+e594fa0 Dependências iniciais
+
+## git shortlog -sn -e (HEAD)
+7	pedrossquillante <pedrossquillante@gmail.com>
+     2	Jo4oP3droF3rr <joao.fpinheiro@outlook.com>
+     1	Davi de Souza Bezerra Pereira <davisbpereira@gmail.com>
+     1	Pedro Simionato Squillante <pedrossquillante@gmail.com>
+     1	RiNane2830 <davisbpereira@gmail.com>
+
+## git log --oneline --graph --all -20
+* 6634ba1 Add Vercel link to README
+* f390c91 Add participants to Participantes.md
+* 3b3753a page
+*   4a67508 Merge branch 'main' of https://github.com/pedrossquillante/checkpoint-5-webdev-1espu
+|\  
+| * 114bdbf contactsApi
+* | 394eccc globals e page mudança
+|/  
+*   56b2af4 Merge branch 'main' of https://github.com/pedrossquillante/checkpoint-5-webdev-1espu
+|\  
+| * 49351a3 feat: contactForm e contactList
+* | c71ca31 Mudança da globals e da page
+* | e740933 Adição da Api e do axios
+|/  
+* 979da92 Criação do Filter Input
+* e594fa0 Dependências iniciais
+
+## contagem de commits HEAD
+12

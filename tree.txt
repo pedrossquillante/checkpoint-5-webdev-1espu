@@ -1,0 +1,29 @@
+gitcontext.txt (1933b)
+my-app/
+my-app/.gitignore (480b)
+my-app/app/
+my-app/app/components/
+my-app/app/components/ContactForm.js (982b)
+my-app/app/components/ContactList.js (175b)
+my-app/app/components/FilterInput.js (295b)
+my-app/app/globals.css (23b)
+my-app/app/layout.js (132b)
+my-app/app/page.js (793b)
+my-app/app/services/
+my-app/app/services/contactsApi.js (743b)
+my-app/eslint.config.mjs (400b)
+my-app/jsconfig.json (73b)
+my-app/next.config.mjs (276b)
+my-app/package-lock.json (238758b)
+my-app/package.json (490b)
+my-app/public/
+my-app/public/file.svg (391b)
+my-app/public/globe.svg (1035b)
+my-app/public/next.svg (1375b)
+my-app/public/vercel.svg (128b)
+my-app/public/window.svg (385b)
+my-app/README.md (1458b)
+package-lock.json (11845b)
+package.json (51b)
+Participantes.md (112b)
+README.md (59b)

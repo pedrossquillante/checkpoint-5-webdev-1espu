@@ -1,0 +1,133 @@
+{
+  "turma": "1ESPU",
+  "project": "pedrossquillante-checkpoint-5-webdev-1espu",
+  "hasGit": true,
+  "nextRoots": [
+    {
+      "pkgPath": "my-app/package.json",
+      "dir": "/Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPU/pedrossquillante-checkpoint-5-webdev-1espu/my-app",
+      "next": "16.4.0",
+      "axios": "^1.20.0",
+      "react": "19.3.0",
+      "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint"
+      }
+    }
+  ],
+  "components": [
+    {
+      "name": "ContactForm",
+      "file": "my-app/app/components/ContactForm.js",
+      "inComponents": true
+    },
+    {
+      "name": "ContactList",
+      "file": "my-app/app/components/ContactList.js",
+      "inComponents": true
+    },
+    {
+      "name": "FilterInputs",
+      "file": "my-app/app/components/FilterInput.js",
+      "inComponents": true
+    }
+  ],
+  "componentCount": 3,
+  "componentsInComponentsFolder": 3,
+  "axiosHits": [
+    "my-app/app/services/contactsApi.js:1: import axios from 'axios';",
+    "my-app/app/services/contactsApi.js:3: const contactsApi = axios.create({",
+    "my-app/package-lock.json:11: \"axios\": \"^1.20.0\",",
+    "my-app/package-lock.json:2651: \"node_modules/axios\": {",
+    "my-app/package-lock.json:2653: \"resolved\": \"https://registry.npmjs.org/axios/-/axios-1.20.0.tgz\",",
+    "my-app/package.json:12: \"axios\": \"^1.20.0\",",
+    "package-lock.json:8: \"axios\": \"^1.20.0\"",
+    "package-lock.json:29: \"node_modules/axios\": {",
+    "package-lock.json:31: \"resolved\": \"https://registry.npmjs.org/axios/-/axios-1.20.0.tgz\",",
+    "package.json:3: \"axios\": \"^1.20.0\""
+  ],
+  "fetchHits": [],
+  "useStateHits": [
+    "my-app/app/components/ContactForm.js:3: import {useState, useEffect, useRef} from \"react\"",
+    "my-app/app/components/ContactForm.js:6: const [form, setForm] = useState({nome: \"\", email: \"\", telefone: \"\"})",
+    "my-app/app/components/ContactList.js:3: import {useEffect, useState, useRef} from \"react\"",
+    "my-app/app/page.js:9: import { useEffect, useState } from \"react\";",
+    "my-app/app/page.js:12: const [contacts, setContacts] = useState([])"
+  ],
+  "useEffectHits": [
+    "my-app/app/components/ContactForm.js:3: import {useState, useEffect, useRef} from \"react\"",
+    "my-app/app/components/ContactForm.js:9: useEffect(() => {",
+    "my-app/app/components/ContactList.js:3: import {useEffect, useState, useRef} from \"react\"",
+    "my-app/app/page.js:9: import { useEffect, useState } from \"react\";",
+    "my-app/app/page.js:14: useEffect(() => {"
+  ],
+  "useRouterHits": [],
+  "linkHits": [],
+  "useClientHits": [
+    "my-app/app/components/ContactForm.js:1: \"use client\"",
+    "my-app/app/components/ContactList.js:1: \"use client\"",
+    "my-app/app/components/FilterInput.js:1: \"use client\";",
+    "my-app/app/page.js:1: \"use client\""
+  ],
+  "useMemoHits": [],
+  "useCallbackHits": [],
+  "useRefHits": [
+    "my-app/app/components/ContactForm.js:3: import {useState, useEffect, useRef} from \"react\"",
+    "my-app/app/components/ContactForm.js:7: const nomeRef = useRef()",
+    "my-app/app/components/ContactList.js:3: import {useEffect, useState, useRef} from \"react\""
+  ],
+  "localStorageHits": [],
+  "loadingHints": [],
+  "errorHints": [
+    "my-app/app/services/contactsApi.js:17: (error) => {",
+    "my-app/app/services/contactsApi.js:18: return Promise.reject(error)",
+    "my-app/app/services/contactsApi.js:28: (error) => {",
+    "my-app/app/services/contactsApi.js:29: console.log(\"Erro na requisição\", error.message);",
+    "my-app/app/services/contactsApi.js:30: return Promise.reject(error)",
+    "my-app/package-lock.json:3640: \"zod-validation-error\": \"^3.5.0 || ^4.0.0\""
+  ],
+  "searchHints": [
+    "my-app/README.md:34: The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-tem",
+    "my-app/package-lock.json:2432: \"node_modules/aria-query\": {",
+    "my-app/package-lock.json:2434: \"resolved\": \"https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz\",",
+    "my-app/package-lock.json:2663: \"node_modules/axobject-query\": {",
+    "my-app/package-lock.json:2665: \"resolved\": \"https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz\",",
+    "my-app/package-lock.json:3573: \"aria-query\": \"^5.3.2\",",
+    "my-app/package-lock.json:3578: \"axobject-query\": \"^4.1.0\","
+  ],
+  "dynamicRoutes": [],
+  "honeypots": [],
+  "reduxVueClass": [],
+  "readmes": [
+    {
+      "path": "README.md",
+      "preview": "checkpoint-5-webdev-1espu-tnyu-nu.vercel.app - link vercel\n"
+    },
+    {
+      "path": "my-app/README.md",
+      "preview": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\n\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.\n"
+    }
+  ],
+  "participantes": [
+    {
+      "path": "Participantes.md",
+      "preview": "Davi de Souza Bezerra Pereira - RM 572337\nJoão Pedro Ferreira Pinheiro - RM 570569\nPedro Simionato - RM 572477\n"
+    }
+  ],
+  "vercelLinks": [
+    "https://vercel.com/font",
+    "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+  ],
+  "apiHints": [
+    "MockAPI"
+  ],
+  "git": {
+    "commitCount": 12,
+    "branch": "main",
+    "remote": "origin\thttps://github.com/pedrossquillante/checkpoint-5-webdev-1espu (fetch)\norigin\thttps://github.com/pedrossquillante/checkpoint-5-webdev-1espu (push)",
+    "shortlog": "7\tpedrossquillante <pedrossquillante@gmail.com>\n     2\tJo4oP3droF3rr <joao.fpinheiro@outlook.com>\n     1\tDavi de Souza Bezerra Pereira <davisbpereira@gmail.com>\n     1\tPedro Simionato Squillante <pedrossquillante@gmail.com>\n     1\tRiNane2830 <davisbpereira@gmail.com>",
+    "logOneline": "6634ba1 Add Vercel link to README\nf390c91 Add participants to Participantes.md\n3b3753a page\n4a67508 Merge branch 'main' of https://github.com/pedrossquillante/checkpoint-5-webdev-1espu\n394eccc globals e page mudança\n114bdbf contactsApi\n56b2af4 Merge branch 'main' of https://github.com/pedrossquillante/checkpoint-5-webdev-1espu\nc71ca31 Mudança da globals e da page\ne740933 Adição da Api e do axios\n49351a3 feat: contactForm e contactList\n979da92 Criação do Filter Input\ne594fa0 Dependências iniciais"
+  }
+}
